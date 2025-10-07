@@ -1,16 +1,39 @@
-# React + Vite
+# Tic-Tac-Toe (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated Tic-Tac-Toe game built in React for CS696A Lab 4.
 
-Currently, two official plugins are available:
+## 🎮 Features
+- Player vs Player and Player vs Bot mode  
+- Choose your side (X or O)  
+- Animated confetti and glowing winning line  
+- Custom player names and scoreboard  
+- Fully responsive futuristic UI  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ How to Run
+1. Clone or download this repo  
+2. In terminal:
+   ```bash
+   npm install
+   npm run dev
+   
+Open the URL shown in your terminal (usually http://localhost:5173).
 
-## React Compiler
+## 🧩 Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+App.jsx — Main container
 
-## Expanding the ESLint configuration
+Board.jsx / Square.jsx — Game grid logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Confetti.jsx / WinnerBanner.jsx — Visual effects
+
+App.css — Futuristic theme styling
+
+## 📸 Screenshots
+<img width="2879" height="1687" alt="image" src="https://github.com/user-attachments/assets/4167a6f6-6f1f-4331-9662-bac36228297a" />
+<img width="2879" height="1705" alt="image" src="https://github.com/user-attachments/assets/c1a6dc09-07b1-46b1-9c60-c2af7a792bdf" />
+<img width="2879" height="1701" alt="image" src="https://github.com/user-attachments/assets/e458e70f-87a9-4e1f-900b-7ba6002ed0dd" />
+<img width="2879" height="1695" alt="image" src="https://github.com/user-attachments/assets/4577cdbd-3a4c-4020-aff3-0d975855427e" />
+
+## 🧠 Reflection
+
+Building this app helped me understand React states, props, and component architecture more clearly.
